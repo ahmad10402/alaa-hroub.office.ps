@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>ALAA OFFICE</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>ALAA OFFICE</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <img src="logo.png.png" alt="Alaa Office Logo" class="logo">
-        <h1>ALAA OFFICE</h1>
-        <p>للاستشارات المحاسبية والمالية</p>
-        <nav>
-            <a href="index.html">الرجوع للرئيسية</a>
-        </nav>
-    </header>
-    <main>
+  <header>
+    <img src="logo.png.png" alt="Alaa Office Logo" class="logo" />
+    <h1>ALAA OFFICE</h1>
+    <p>للاستشارات المحاسبية والمالية</p>
+  </header>
 
-<div class="services-menu">
-    <a href="service1.html">بناء أنظمة تكاليف</a>
-    <a href="service2.html">إعداد دراسة جدوى</a>
-    <a href="service3.html">تحليل مالي</a>
-    <a href="service4.html">موازنات سنوية</a>
-    <a href="service5.html">هيكل حسابات</a>
-    <a href="service6.html">خدمات ضريبية</a>
-    <a href="service7.html">تحليل أداء المبيعات</a>
-</div>
+  <main>
+    <div class="language-switch">
+      <button onclick="toggleLanguage()">English | عربي</button>
+    </div>
 
-    </main>
-    <footer>
-        <div class="contact-box">
-            <p>للتواصل: +972568833009</p>
-            <p>فيسبوك: <a href="https://www.facebook.com">https://www.facebook.com/share/1P8NqEm6bF/
-</a></p>
-        </div>
-    </footer>
+    <section class="services-grid">
+      <a href="service1.html" class="service-card">بناء أنظمة تكاليف</a>
+      <a href="service2.html" class="service-card">إعداد دراسة جدوى</a>
+      <a href="service3.html" class="service-card">تحليل مالي</a>
+      <a href="service4.html" class="service-card">موازنات سنوية</a>
+      <a href="service5.html" class="service-card">هيكل حسابات</a>
+      <a href="service6.html" class="service-card">خدمات ضريبية</a>
+      <a href="service7.html" class="service-card">تحليل أداء المبيعات</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>رقم التواصل: +972568833009 | <a href="https://www.facebook.com/share/1P8NqEm6bF/">فيسبوك</a></p>
+  </footer>
+
+  <script>
+    function toggleLanguage() {
+      alert("تبديل اللغة لم يتم تفعيله بعد.");
+    }
+  </script>
 </body>
 </html>
