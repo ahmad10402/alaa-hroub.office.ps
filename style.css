@@ -14,7 +14,12 @@ header {
     color: white;
 }
 header .logo {
-    height: 80px;
+  height: 150px; 
+  width: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
 }
 nav a {
     margin: 10px;
